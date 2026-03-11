@@ -18,8 +18,8 @@ The goal of HerSafe is to create a reliable digital safety companion that can be
 
 ## 🛠️ Technologies Used
 
-* **Frontend:** React / React Native
-* **Backend:** Node.js
+* **Frontend:** Flutter 
+* **Backend:** Firebase
 * **Database:** Firebase / MongoDB
 * **Version Control:** Git & GitHub
 
