@@ -1,29 +1,52 @@
-HerSafe 🚨
+# HerSafe 🚨
 
-HerSafe is a safety-focused application designed to help women stay secure by providing quick access to emergency assistance, real-time location sharing, and instant alerts to trusted contacts. The goal of HerSafe is to create a reliable digital safety companion that can be used during emergencies.
+**HerSafe** is a Flutter-based mobile application designed to enhance women's safety and health.
+The app provides emergency assistance, live location tracking, trusted contact alerts, and health tracking features to help women stay safe and supported in critical situations.
 
-🌟 Features
+---
 
-Emergency SOS Button – Instantly send alerts to emergency contacts.
+# 📱 Features
 
-Live Location Sharing – Share real-time location with trusted people.
+### 🚨 SOS Emergency Button
 
-Quick Dial Emergency Contacts – Call predefined contacts with one tap.
+Instantly alert trusted contacts during emergencies.
 
-Safety Alerts – Send notifications during dangerous situations.
+### 📍 Live Location Sharing
 
-User-Friendly Interface – Simple and easy-to-use design for quick actions during emergencies.
+Share your real-time location with trusted contacts for safety monitoring.
+
+### 🔊 Automatic Audio Recording
+
+Automatically record audio during emergency situations for evidence.
+
+### 👥 Trusted Contacts
+
+Add and manage emergency contacts who will receive alerts and location updates.
+
+### 📩 Emergency SMS Alerts
+
+Send automated SMS messages with location details during emergencies.
+
+### 🩺 Period Tracker
+
+Track menstrual cycles and health-related information.
+
+### 🎨 Simple and User-Friendly Interface
+
+Designed with an intuitive and easy-to-use Flutter UI.
+
+---
 
 # 🛠️ Technologies Used
 
-* **Flutter** – Mobile App Development
-* **Dart** – Programming Language
-* **Firebase** – Backend Services
-* **Firebase Authentication** – User Authentication
-* **Cloud Firestore / Realtime Database** – Data Storage
-* **Firebase Storage** – Media Storage
-* **Google Maps / Location Services** – Live Location Tracking
-* **Git & GitHub** – Version Control
+* **Flutter** – Cross-platform mobile app development
+* **Dart** – Programming language used in Flutter
+* **Firebase** – Backend services
+* **Firebase Authentication** – User login and authentication
+* **Cloud Firestore / Realtime Database** – Data storage
+* **Firebase Storage** – Media storage
+* **Google Maps / Location Services** – Live location tracking
+* **Git & GitHub** – Version control and collaboration
 
 ---
 
@@ -41,6 +64,7 @@ lib/
 ├── automatic_recording.dart
 ├── automatic_msg.dart
 ├── emergencyrec.dart
+├── onboardingpage.dart
 ├── theme/
 │   └── app_theme.dart
 ```
@@ -49,7 +73,7 @@ lib/
 
 # ⚙️ Installation Guide
 
-Follow the steps below to run the project locally.
+Follow these steps to run the HerSafe app locally.
 
 ---
 
@@ -69,20 +93,18 @@ Check Flutter installation:
 flutter doctor
 ```
 
-Fix any issues shown in the result.
-
 ---
 
 # 2️⃣ Clone the Repository
 
 ```
-git clone https://github.com/your-username/women_safety_health_app.git
-cd women_safety_health_app
+git clone https://github.com/anvitaa11/hersafe.git
+cd hersafe
 ```
 
 ---
 
-# 3️⃣ Install Project Dependencies
+# 3️⃣ Install Dependencies
 
 ```
 flutter pub get
@@ -92,16 +114,16 @@ flutter pub get
 
 # 4️⃣ Setup Firebase Backend
 
-### Step 1: Create Firebase Project
+### Create Firebase Project
 
-1. Go to Firebase Console
+1. Go to **Firebase Console**
 2. Click **Add Project**
 3. Enter project name
 4. Create the project
 
 ---
 
-### Step 2: Register Android App
+### Register Android App
 
 1. Click **Add App**
 2. Select **Android**
@@ -113,7 +135,7 @@ android/app/src/main/AndroidManifest.xml
 
 ---
 
-### Step 3: Download Configuration File
+### Download Firebase Configuration
 
 Download:
 
@@ -155,7 +177,7 @@ Configure Firebase:
 flutterfire configure
 ```
 
-This generates:
+This generates the file:
 
 ```
 lib/firebase_options.dart
@@ -167,7 +189,7 @@ lib/firebase_options.dart
 
 Start an emulator or connect a device.
 
-Then run:
+Run the app:
 
 ```
 flutter run
@@ -206,7 +228,7 @@ flutter clean
 flutter pub get
 ```
 
-Check available devices:
+Check connected devices:
 
 ```
 flutter devices
@@ -219,14 +241,14 @@ flutter devices
 * AI-based danger detection
 * Voice-activated SOS system
 * Integration with police emergency services
-* Smart wearable device integration
+* Wearable device support
 * Offline emergency alerts
 
 ---
 
 # 👨‍💻 Author
 
-Developed by **Your Name**
+Developed by **ANVITA AWCHARE AND NAJIYA PATEL**
 
 ---
 
@@ -238,4 +260,4 @@ This project is licensed under the **MIT License**.
 
 # ⭐ Support
 
-If you like this project, please give it a **star ⭐ on GitHub** to support development.
+If you like this project, please give it a **star ⭐ on GitHub**.
