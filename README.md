@@ -14,8 +14,6 @@ Safety Alerts – Send notifications during dangerous situations.
 
 User-Friendly Interface – Simple and easy-to-use design for quick actions during emergencies.
 
----
-
 # 🛠️ Technologies Used
 
 * **Flutter** – Mobile App Development
